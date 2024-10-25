@@ -1,12 +1,12 @@
 {
-    "name": "multipages",
+    "name": "multi",
     "private": true,
     "version": "0.0.0",
     "homepage": "https://vasiyathorn.github.io/multi",
     "type": "module",
     "scripts": {
-        "deploy": "gh-pages -d dist",
         "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
         "dev": "vite",
         "build": "vite build",
         "lint": "eslint .",
