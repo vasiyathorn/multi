@@ -1,0 +1,15 @@
+.home-container {
+    display: flex;
+    border: 1px solid;
+    height: 600px;
+}
+
+.home-title-container {
+    border: 1px solid;
+    margin: 1rem;
+}
+
+.home-word-container {
+    border: 1px solid;
+    margin: 1rem;
+}

@@ -1,0 +1,61 @@
+/* BallGame.css */
+
+#container {
+    border: 2px solid black;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+
+/* Field styling */
+
+#field {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-image: url("./images/istockphoto-1372488781-612x612.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 10px;
+}
+
+
+/* Control section styling */
+
+#control {
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Ball styling */
+
+#ball {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    animation: animate 2s infinite linear;
+}
+
+
+/* Ball rotation animation */
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
